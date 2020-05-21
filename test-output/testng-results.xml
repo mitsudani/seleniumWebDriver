@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6526" started-at="2020-05-20T21:11:39 ART" finished-at="2020-05-20T21:11:45 ART">
+  <suite name="Default suite" duration-ms="8831" started-at="2020-05-20T22:17:35 ART" finished-at="2020-05-20T22:17:44 ART">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6526" started-at="2020-05-20T21:11:39 ART" finished-at="2020-05-20T21:11:45 ART">
-      <class name="Pruebas.Laboratorio4_E1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Pruebas.Laboratorio4_E1@53f65459]" name="setUp" is-config="true" duration-ms="8564" started-at="2020-05-20T21:11:30 ART" finished-at="2020-05-20T21:11:39 ART">
+    <test name="Default test" duration-ms="8831" started-at="2020-05-20T22:17:35 ART" finished-at="2020-05-20T22:17:44 ART">
+      <class name="Pruebas.Test_Laboratorio4_E1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Pruebas.Test_Laboratorio4_E1@2d8f65a4]" name="setUp" is-config="true" duration-ms="13071" started-at="2020-05-20T22:17:22 ART" finished-at="2020-05-20T22:17:35 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Pruebas.Laboratorio4_E1@53f65459]" name="f" duration-ms="1021" started-at="2020-05-20T21:11:39 ART" finished-at="2020-05-20T21:11:40 ART">
+        <test-method status="PASS" signature="f()[pri:0, instance:Pruebas.Test_Laboratorio4_E1@2d8f65a4]" name="f" duration-ms="1077" started-at="2020-05-20T22:17:35 ART" finished-at="2020-05-20T22:17:36 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="ingreso(java.lang.String, java.lang.String)[pri:1, instance:Pruebas.Laboratorio4_E1@53f65459]" name="ingreso" duration-ms="1607" started-at="2020-05-20T21:11:41 ART" data-provider="Registro Invalido Excel" finished-at="2020-05-20T21:11:42 ART">
+        <test-method status="PASS" signature="ingreso(java.lang.String, java.lang.String)[pri:1, instance:Pruebas.Test_Laboratorio4_E1@2d8f65a4]" name="ingreso" duration-ms="2870" started-at="2020-05-20T22:17:37 ART" data-provider="Registro Invalido Excel" finished-at="2020-05-20T22:17:39 ART">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ingreso -->
-        <test-method status="PASS" signature="ingreso(java.lang.String, java.lang.String)[pri:1, instance:Pruebas.Laboratorio4_E1@53f65459]" name="ingreso" duration-ms="1607" started-at="2020-05-20T21:11:42 ART" data-provider="Registro Invalido Excel" finished-at="2020-05-20T21:11:44 ART">
+        <test-method status="PASS" signature="ingreso(java.lang.String, java.lang.String)[pri:1, instance:Pruebas.Test_Laboratorio4_E1@2d8f65a4]" name="ingreso" duration-ms="2079" started-at="2020-05-20T22:17:39 ART" data-provider="Registro Invalido Excel" finished-at="2020-05-20T22:17:42 ART">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ingreso -->
-        <test-method status="PASS" signature="ingreso(java.lang.String, java.lang.String)[pri:1, instance:Pruebas.Laboratorio4_E1@53f65459]" name="ingreso" duration-ms="1550" started-at="2020-05-20T21:11:44 ART" data-provider="Registro Invalido Excel" finished-at="2020-05-20T21:11:45 ART">
+        <test-method status="PASS" signature="ingreso(java.lang.String, java.lang.String)[pri:1, instance:Pruebas.Test_Laboratorio4_E1@2d8f65a4]" name="ingreso" duration-ms="2264" started-at="2020-05-20T22:17:42 ART" data-provider="Registro Invalido Excel" finished-at="2020-05-20T22:17:44 ART">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ingreso -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Pruebas.Laboratorio4_E1@53f65459]" name="afterSuite" is-config="true" duration-ms="637" started-at="2020-05-20T21:11:45 ART" finished-at="2020-05-20T21:11:46 ART">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Pruebas.Test_Laboratorio4_E1@2d8f65a4]" name="afterSuite" is-config="true" duration-ms="629" started-at="2020-05-20T22:17:44 ART" finished-at="2020-05-20T22:17:44 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- Pruebas.Laboratorio4_E1 -->
+      </class> <!-- Pruebas.Test_Laboratorio4_E1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

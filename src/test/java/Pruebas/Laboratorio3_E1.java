@@ -14,7 +14,7 @@ public class Laboratorio3_E1 {
 	
 	@BeforeSuite
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Mit Hydeist\\Desktop\\Tester QA\\Educación IT\\07. Testing Automation con Selenium\\DSMit\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\_qa\\DSMit\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	

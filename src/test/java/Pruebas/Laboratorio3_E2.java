@@ -13,7 +13,7 @@ import org.apache.commons.io.FileUtils;
 public class Laboratorio3_E2 {
 	WebDriver driver;
 	String url = "http://automationpractice.com/index.php";
-	String pathDriver = "C:\\Users\\Mit Hydeist\\Desktop\\Tester QA\\Educación IT\\07. Testing Automation con Selenium\\DSMit\\Drivers\\chromedriver.exe";
+	String pathDriver = "C:\\_qa\\DSMit\\Drivers\\chromedriver.exe";
 
 	@BeforeTest
 	public void setUp() {

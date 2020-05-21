@@ -17,10 +17,10 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.Assert;
 
-public class Laboratorio4_E1 {
+public class Test_Laboratorio4_E1 {
 	WebDriver driver;
 	String url = "http://automationpractice.com/index.php";
-	String pathDriver = "C:\\Users\\Mit Hydeist\\Desktop\\Tester QA\\Educación IT\\07. Testing Automation con Selenium\\DSMit\\Drivers\\chromedriver.exe";
+	String pathDriver = "C:\\_qa\\DSMit\\Drivers\\chromedriver.exe";
 
 	@BeforeSuite
 	public void setUp() {
@@ -59,7 +59,7 @@ public class Laboratorio4_E1 {
 
 	@DataProvider (name="Registro Invalido Excel")
 	public Object[][] datosPruebaExcel() throws Exception {
-		Object[][] datos = DatosExcel.leerExcel("C:\\Users\\Mit Hydeist\\Desktop\\Tester QA\\Educación IT\\07. Testing Automation con Selenium\\DSMit\\Recursos\\datos.xlsx", "Hoja1");
+		Object[][] datos = DatosExcel.leerExcel("C:\\_qa\\DSMit\\Recursos\\datos.xlsx", "Hoja1");
 		return datos;
 	}
 	

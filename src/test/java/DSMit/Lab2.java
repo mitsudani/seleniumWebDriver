@@ -1,4 +1,4 @@
-package DS.Mit;
+package DSMit;
 
 import org.junit.*;
 import org.openqa.selenium.*;
@@ -13,7 +13,7 @@ public class Lab2 {
 
 @Test
 public void lab2_E0() {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\Mit Hydeist\\Desktop\\Tester QA\\Educación IT\\07. Testing Automation con Selenium\\DSMit\\Drivers\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\_qa\\DSMit\\Drivers\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	
 	// ESPERA IMPLÍCITA
@@ -26,7 +26,7 @@ public void lab2_E0() {
 
 @Test
 public void lab2_E1() {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\Mit Hydeist\\Desktop\\Tester QA\\Educación IT\\07. Testing Automation con Selenium\\DSMit\\Drivers\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\_qa\\DSMit\\Drivers\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.facebook.com/");
 	
